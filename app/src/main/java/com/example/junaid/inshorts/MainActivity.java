@@ -137,10 +137,16 @@ public class MainActivity extends AppCompatActivity implements Service.Result,
             @Override
             public void run() {
                 switch (id) {
-                    case R.id.nav_attendance:
+                    case R.id.nav_myfeed:
                         //write what you want to do
                         break;
-                    case R.id.nav_timetable:
+                    case R.id.nav_categories:
+                        getFragmentManager()
+                                .beginTransaction()
+                                .replace(R.id.container, new CategoriesFragment(), "timetable")
+                                .setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE) // if you need transition
+                                .addToBackStack("TimeTable")
+                                .commit();
 
                         break;
 

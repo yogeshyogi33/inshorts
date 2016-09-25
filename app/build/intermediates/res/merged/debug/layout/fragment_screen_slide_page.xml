@@ -47,7 +47,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text=""
-        android:layout_below="@+id/text"/>
+        android:layout_above="@+id/moreat"/>
 
     <TextView
         android:id="@+id/moreat"
@@ -55,5 +55,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text=""
-        android:layout_below="@+id/reportby"/>
+        android:layout_alignParentBottom="true"/>
+
+    <Button
+        android:id="@+id/share"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  share"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:drawableLeft="@drawable/ic_share_black_24dp"
+         />
 </RelativeLayout>

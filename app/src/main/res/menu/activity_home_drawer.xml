@@ -3,34 +3,29 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_attendance"
+            android:id="@+id/nav_myfeed"
             android:checked="true"
-            android:title="Attendance" />
+            android:title="My Feed" />
         <item
-            android:id="@+id/nav_timetable"
-            android:title="TimeTable" />
-       <!-- <item
-            android:id="@+id/nav_reminders"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="Reminders" />-->
-       <!-- <item
-            android:id="@+id/nav_todo"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="ToDo List" /> -->
+            android:id="@+id/nav_allnews"
+            android:title="All News" />
+        <item
+            android:id="@+id/nav_topstories"
+            android:title="Top Stories" />
+        <item
+            android:id="@+id/nav_trending"
+            android:title="Trending" />
+        <item
+            android:id="@+id/nav_bookmarks"
+            android:title="Bookmarks" />
+        <item
+            android:id="@+id/nav_categories"
+            android:title="Categories" />
+
+
     </group>
 
-    <!--<item android:title="Info">
-        <menu>
-            <item
-                android:id="@+id/nav_help"
-                android:icon="@drawable/ic_help_black_24dp"
-                android:title="Help" />
-            <item
-                android:id="@+id/nav_about"
-                android:icon="@drawable/ic_info_black_24dp"
-                android:title="About" />
-        </menu>
-    </item>-->
+
 
     <item
         android:id="@+id/nav_exit"
